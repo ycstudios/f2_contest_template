@@ -18,7 +18,7 @@ function addData() {
   //Write your code here, just console.log
 }
 
-function removeFailedStudent() {
+function removeAdmin() {
   //Write your code here, just console.log
 }
 
