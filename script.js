@@ -6,7 +6,7 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
-function PrintDeveloperwithMap() {
+function PrintDeveloperbyMap() {
   //Write your code here , just console.log
 }
 
