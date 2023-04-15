@@ -6,11 +6,11 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
-function PrintStudentswithMap() {
+function PrintDeveloperwithMap() {
   //Write your code here , just console.log
 }
 
-function PrintStudentsbyForEach() {
+function PrintDeveloperbyForEach() {
   //Write your code here , just console.log
 }
 
