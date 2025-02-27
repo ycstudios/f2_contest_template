@@ -19,7 +19,14 @@ function PrintDeveloperbyMap() {
 }
 
 function PrintDeveloperbyForEach() {
-  //Write your code here , just console.log
+
+  const developers = [];
+  arr.forEach((employee) => {
+    if (employee.profession === "developer") {
+      developers.push(employee);
+    }
+  });
+  console.log(developers)
 }
 
 function addData() {
