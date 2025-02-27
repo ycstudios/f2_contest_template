@@ -7,7 +7,15 @@ let arr = [
 ];
 
 function PrintDeveloperbyMap() {
-  //Write your code here , just console.log
+  const developers = arr.map((employee) => {
+    if (employee.profession === "developer") {
+      return employee;
+    }
+  })
+  
+  const dev=developers.filter(employee => employee !== undefined);
+  
+  console.log(dev);
 }
 
 function PrintDeveloperbyForEach() {
