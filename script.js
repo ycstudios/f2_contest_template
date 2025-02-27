@@ -42,9 +42,17 @@ function addData() {
 }
 
 function removeAdmin() {
-  //Write your code here, just console.log
+  const filteredArray = arr.filter((employee) => employee.profession !== "admin");
+      console.log(filteredArray);
 }
 
 function concatenateArray() {
-  //Write your code here, just console.log
+  const newArray = [
+    { id: 5, name: "yash", age: "20", profession: "developer" },
+    { id: 6, name: "asus", age: "20", profession: "manager" },
+    { id: 7, name: "tuf", age: "25", profession: "developer" }
+  ];
+
+  const concatenatedArray = arr.concat(newArray);
+  console.log(concatenatedArray);
 }
